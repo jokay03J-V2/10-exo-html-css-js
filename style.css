@@ -1,148 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto:wght@100;400&display=swap");
+.no-style {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  padding-left: 0px;
+}
 
-* {
-  padding: 0px;
+.no-list-style {
+  list-style: none;
+}
+
+.cursive {
+  font-family: cursive, sans-serif;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.no-margin {
   margin: 0px;
-  font-size: 1.2em;
 }
 
-.body {
-  background-color: #565a5d;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.grey {
+  color: grey;
 }
 
-.body::before {
-  content: "";
-  z-index: -1;
-  height: 200px;
-  width: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(./img/cat-god.jpg);
-  background-size: contain;
-  position: absolute;
-  top: 0px;
-  left: 100%;
-  transform: translateX(-100%);
+.tomato {
+  color: tomato;
 }
 
-.main--title {
-  font-family: "Amatic SC", cursive;
-  font-weight: 400;
-  font-size: 4em;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 2.5em;
+.aquamarine {
+  color: aquamarine;
 }
 
-.main--title span {
-  line-height: 100%;
+.goldenrod {
+  color: goldenrod;
 }
 
-.main--p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  color: white;
-  line-height: 125%;
-  margin-top: 25px;
-  max-width: 800px;
+.bold {
+  font-weight: bold;
 }
 
-.main--p::first-letter {
-  padding-left: 40px;
+.lg {
+  font-size: 1.5rem;
 }
 
-article {
-  width: 90%;
-  margin-top: 20px;
-  max-width: 800px;
+.bg-tomato {
+  background-color: tomato;
 }
 
-article img {
-  width: 50%;
-  height: auto;
+.bg-goldenrod {
+  background-color: goldenrod;
 }
 
-article h2 {
-  font-family: "Amatic SC", cursive;
-  font-weight: 400;
-  font-size: 2.5em;
-  color: white;
-  line-height: 100%;
-  margin-top: 6vh;
-}
-
-article p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  color: white;
-  line-height: 125%;
-  margin-top: 25px;
-}
-
-article p::first-letter {
-  padding-left: 40px;
-}
-
-.text--italic {
-  font-style: italic;
-}
-
-article h3 {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  font-family: "Amatic SC", cursive;
-  font-weight: 400;
-  color: white;
-  font-size: 1.5em;
-}
-
-article p a {
-  color: #5ac5c2;
-}
-
-figure {
-  max-width: 800px;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-}
-
-figure blockquote p {
-  text-align: center;
-  font-style: italic;
-}
-
-figure figcaption {
-  text-align: end;
-  font-style: italic;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  text-align: center;
-}
-
-footer p a {
-  color: #5ac5c2;
-}
-
-footer img {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+.bg-aquamarine {
+  background-color: aquamarine;
 }
 
