@@ -108,3 +108,41 @@ article p a {
   color: #5ac5c2;
 }
 
+figure {
+  max-width: 800px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+figure blockquote p {
+  text-align: center;
+  font-style: italic;
+}
+
+figure figcaption {
+  text-align: end;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+footer p a {
+  color: #5ac5c2;
+}
+
+footer img {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
