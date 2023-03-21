@@ -1,81 +1,48 @@
+# Exo 3 : Hunter X Hunter
+
 # INSTRUCTIONS
-On se concentre d'abord sur le HTML. Puis ensuite sur le CSS.
-Le but de l'exercice est d'apprendre à utiliser les bonnes balises et connaître l'affichage par défault dans le navigateur.
+Découverte du float
 
 ## HTML
-- Utilisation des balises sémantiques en priorité, les balises génériques viennent après
-- Les images du HTML et du CSS sont appelées en lien relatif et celle du JS, de PHP et de MySQL sont en lien absolu
+- Utilisation des balises sémantique
+- Utilisation de l'attribut alt sur les images
 
 ## CSS
-- Polices utilisées :
-    - Police Serif (par défaut)
-    - Arial
-    - Cursive
-- Couleurs : https://www.color-hex.com/216-web-safe-colors/
-    - tomato
-    - aquamarine
-    - goldenrod
+- Utilisation du float pour le placement des éléments : les images, la nav, etc
+- Largeur limitée à 750px maximum
+- Police utilisée : 'Luckiest Guy' pour la nav et les titres, Verrdana pour les textes
+- Taille de la police :
+    - nav : 1.3em
 
-## Voici le contenu :
-Titre : Hello World ! Bienvenue à Eden School !
-Navigatiion : L'intégration (front) / Le développement (backend) / Un peu de CSS
-Au cours de cette année nous allons avoir 2 matières :
-L'intégration
-Le HTML :
-Le HTML sert à créer le contenu et la structure du site : elle va contenir uniquement la partie textuelle du site.
+## BONUS
+- Trouver comment on ajoute les petites icones devant les titres, pour cela on va se servir d'une "font icon" (fa-angellist).
 
-Le CSS :
-Le CSS va nous permettre d'ajouter une mise en forme à notre site : les couleurs, les formes, le fond, etc.
+### Méthode de travail
+Cette étape sera à répeter pour **chaque exercice**, et même après la formation !
 
-Le développement
-Le Javascript :
-Javascript est un langage de programmation de script employé pour rendre une page web interactive. Le comportement de la page et son apparence pourront varier en fonction de certains paramètres.
-
-Et ici, nous allons un peu jouer avec la CSS !
-Les couleurs du texte : Et ma police est Arial !
-Ce paragraphe est tomato.
-Ce paragraphe est aquamarine.
-Ce paragraphe est goldenrod.
-Les couleurs de fond : Et ma police est cursive !
-Ce paragraphe est tomato.
-Ce paragraphe est aquamarine.
-Ce paragraphe est goldenrod.    
+- Observer :
+    - Bien analyser toute les subtilités de la maquette ;
+    - Est-ce que je comprends la demande du graphiste, le sens de chaque élément du site ?
+    - Connaissances manquantes pour réaliser le travail ?
 
 
----------------
+- Faire un schéma / mockup :
+    - Représenter la découpe HTML, en indiquant les balises qui seront utilisées
 
 
-# Pour bien démarrer ce premier exo :
-
-Une fois que tu as fini ton HTML, pense à vérifier si ton code est "valide".
-Pour cela, rendez-vous sur : https://validator.w3.org/ et examine ton code.
-Un code valide est essentiel : c'est ça qui va faire que ton site va bien s'afficher sur un maximum de navigateurs, que Google te référencera mieux, etc. Un code valmide va meme te permettre de voir si tu as fait des erreurs (ce validateur va signaler si tu as oublié, par exemple, de fermer une balise, si tu as oublié un attribut alt, etc).
-
-Je t'invite à lire ceci : http://www.commentcamarche.net/faq/10428-valider-un-document-html
-
-Recommence cette étape autant de fois que nécéssaire !
+- Ecrire le HTML en premier :
+    - Toujours commencer par le HTML car on va d'abord écrire le contenu et ensuite poser le design
+    - Utiliser les balises sémantiques en priorité, et ensuite les balises génériques
+    - Vérifier le HTML dans le [validateur HTML][W3C-html-validator]
 
 
-## Documentation HTML de Mozilla
-https://developer.mozilla.org/fr/docs/Web/HTML
-https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5
+- Écrire le CSS :
+    - Construire notre page dans l'ordre de lecture au maximum : si tu commences par le footer, il se pourrait que au moment de modifier un élément au dessus de lui il se retrouve avec quelques petits problèmes
+    - Vérifier le CSS dans le [validateur CSS][W3C-css-validator]. (Attention, il ne faut pas tout prendre au pied de la lettre sur ce validateur, parfois certaines propriétés CSS3 sont reconnues comme des erreurs alors qu'il n'y en a pas)
 
-## Documentation CSS de Mozilla
-https://developer.mozilla.org/fr/docs/Web/CSS
-https://developer.mozilla.org/fr/docs/Web/CSS/CSS3
 
-## Les balises HTML
-https://developer.mozilla.org/fr/Apprendre/HTML/Balises_HTML
+- Réajuster le code pour corriger les erreurs puis revalider l'ensemble
 
-## La propriété font-family
-https://developer.mozilla.org/fr/docs/Web/CSS/@font-face/font-family
 
-## La propriété color
-https://developer.mozilla.org/fr/docs/Web/CSS/color
-
-## La propriété background-color
-https://developer.mozilla.org/fr/docs/Web/CSS/background-color
-
-## Bien indenter son code
-http://forum.alsacreations.com/topic-2-66199-1-Comment-bien-indenter-le-code-source-dune-page.html
-
+[W3C-html-validator]: https://validator.w3.org/#validate_by_input "Valider son code HTML"
+[W3C-css-validator]: https://jigsaw.w3.org/css-validator/#validate_by_input "Valider son code CSS"

@@ -1,59 +1,95 @@
-.no-style {
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Luckiest Guy", cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./img/fond.png);
+}
+
+header {
+  max-width: 750px;
+  width: 100%;
+}
+
+main {
+  max-width: 750px;
+  width: 100%;
+  background-color: white;
+  padding: 2.5vw;
+  padding-top: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #27032d;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+nav h1 {
+  display: none;
+}
+
+nav ul {
+  color: white;
   display: flex;
   list-style: none;
-  gap: 5px;
-  padding-left: 0px;
+  justify-content: space-evenly;
+  width: 50%;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  padding: 0px;
 }
 
-.no-list-style {
-  list-style: none;
+nav img {
+  width: 20%;
+  height: auto;
 }
 
-.cursive {
-  font-family: cursive, sans-serif;
+section h2 {
+  font-family: "Luckiest Guy", cursive;
+  color: #27032d;
+  margin: 1vh 0vh;
 }
 
-.arial {
+section img {
+  width: 25%;
+  float: left;
+  margin-right: 1vh;
+}
+
+section * {
+  color: gray;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
-.no-margin {
-  margin: 0px;
+.read-more a {
+  border: none;
+  background-color: #27032d;
+  border-radius: 0px;
+  color: white;
+  padding: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
-.grey {
-  color: grey;
+iconify-icon {
+  color: #27032d;
 }
 
-.tomato {
-  color: tomato;
-}
-
-.aquamarine {
-  color: aquamarine;
-}
-
-.goldenrod {
-  color: goldenrod;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.lg {
-  font-size: 1.5rem;
-}
-
-.bg-tomato {
-  background-color: tomato;
-}
-
-.bg-goldenrod {
-  background-color: goldenrod;
-}
-
-.bg-aquamarine {
-  background-color: aquamarine;
+section .read-more {
+  display: flex;
+  width: 100%;
+  justify-content: right;
 }
 
