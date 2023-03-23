@@ -1,27 +1,24 @@
 # INSTRUCTIONS
-Découverte du inline-block
+
+Révision et approfondissement du float et du inline-block
 
 ## HTML
-- Utilisation du inline-block pour le placement de certains éléments
-- Utilisation du float pour quelques éléments
+
 - Utilisation du normalize.css
 
-
 ## CSS
-- Largeur limité entre 800px et 1100px
-- Largeur du bloc gauche : environ 70%
-- Largeur du bloc de droite : environ 30%
-- Utiliser une class pour limiter la largeur du contenu
+
+- Utilisation du inline-block et du float pour le placement de certains éléments
 - Taille de la police :
-    - par défaut : 1em
-    - titre welcome : 2.5em
-    - titre today : 3.5em
-    - titre recipe : 1.8em
-    - titre news : 1.4em
+
+  - par défaut : 1em
+  - nav : 1.5em
 
 - Police utilisés :
-    - titre et nav : 'Comic Neue'
-    - texte : 'Baloo Chettan 2'
+  - Titres et Nav : "Coda Caption" et "Norican"
+  - Texte : "PT Sans"
 
 ## BONUS
-- Trouver comment on réalise les coins arrondis en CSS pour arrondir les photos
+
+- Trouver comment on intègre une google map
+
