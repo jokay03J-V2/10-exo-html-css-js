@@ -79,6 +79,7 @@ p {
 .backups_stats {
   display: flex;
   width: 100%;
+  max-width: 1100px;
   gap: 2vw;
   padding-left: 2vw;
   padding-right: 2vw;
