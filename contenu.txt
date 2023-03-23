@@ -1,0 +1,113 @@
+BACKUPS, BACKUPS
+EVERYWHERE !
+
+Pourquoi sauvegarder ? Drôle de question ! A l’heure actuelle, la
+sauvegarde, ou plutôt les sauvegardes, apparaissent comme des
+actions incontournables pour l’ensemble des données critiques qu’il ne
+faudrait surtout pas perdre, sans quoi c’est la pérennité même de
+l’entreprise qui pourrait en pâtir. Ces dernières transitent par différents
+
+moyens, et parfois même sur différents supports.
+
+Chaque mois, plusieurs piratages de sociétés importantes ont lieu.
+Nous pouvons reprendre l’exemple de stars possédant un compte
+iCloud ou encore, plus problématique, de Dropbox où 7 millions
+d’identifiants et mots de passe ont été récupérés. Un piratage de
+données consiste généralement par trouver les accès (identifiants,
+noms d’utilisateurs et mots de passe) puis à les diffuser à des sites peu
+fiables ou sur des réseaux sociaux pour en faire une utilisation
+
+malsaine.
+
+Les erreurs humaines et défaillances techniques sont aussi des sources
+importantes de pertes de données. La question n’est plus de savoir
+pourquoi sauvegarder mais comment faut-il s’y prendre.
+
+Nous allons aborder deux types de sauvegarde qui diffèrent en fonction
+
+de leurs fichiers et des besoins de l’utilisateur.
+NO BACKUP, NO
+
+MERCY
+
+Locale
+
+Plusieurs supports sont disponibles pour de la sauvegarde locale. Cette
+sauvegarde permet d’avoir les données « près de soi », que ce soit sur
+un disque dur externe (quand nous parlons d’une sauvegarde, nous
+partons du principe qu’il s’agit de mettre les données sur un support
+externe à l’ordinateur même). C’est pourquoi la sauvegarde locale est
+un excellent moyen de sauvegarde et fait partie d’un des plus surs.
+Pour effectuer la sauvegarde locale, plusieurs supports sont disponibles
+: on pense notamment aux disques durs externes, mais également aux
+serveurs (NAS entre autres) qui permettent d’avoir le support à
+domicile. Il est aussi possible d’avoir recours aux clefs USB, mais qui
+limitent un peu plus la quantité à sauvegarder.
+N’hésitez pas à utiliser des outils adaptés de sauvegarde en fonction de
+votre système d’exploitation de l’ordinateur, de vos serveurs et à les
+paramétrer correctement.
+Read more
+
+Cloud
+
+BACKUPS, BACKUPS
+EVERYWHERE !
+Pourquoi sauvegarder ? Drôle de question ! A l’heure actuelle, la
+sauvegarde, ou plutôt les sauvegardes, apparaissent comme des
+actions incontournables pour l’ensemble des données critiques qu’il ne
+faudrait surtout pas perdre, sans quoi c’est la pérennité même de
+l’entreprise qui pourrait en pâtir. Ces dernières transitent par différents
+
+moyens, et parfois même sur différents supports.
+
+Chaque mois, plusieurs piratages de sociétés importantes ont lieu.
+Nous pouvons reprendre l’exemple de stars possédant un compte
+iCloud ou encore, plus problématique, de Dropbox où 7 millions
+d’identifiants et mots de passe ont été récupérés. Un piratage de
+données consiste généralement par trouver les accès (identifiants,
+noms d’utilisateurs et mots de passe) puis à les diffuser à des sites peu
+fiables ou sur des réseaux sociaux pour en faire une utilisation
+
+malsaine.
+
+Les erreurs humaines et défaillances techniques sont aussi des sources
+importantes de pertes de données. La question n’est plus de savoir
+pourquoi sauvegarder mais comment faut-il s’y prendre.
+
+Nous allons aborder deux types de sauvegarde qui diffèrent en fonction
+
+de leurs fichiers et des besoins de l’utilisateur.
+NO BACKUP, NO
+
+MERCY
+
+Locale
+
+Plusieurs supports sont disponibles pour de la sauvegarde locale. Cette
+sauvegarde permet d’avoir les données « près de soi », que ce soit sur
+un disque dur externe (quand nous parlons d’une sauvegarde, nous
+partons du principe qu’il s’agit de mettre les données sur un support
+externe à l’ordinateur même). C’est pourquoi la sauvegarde locale est
+un excellent moyen de sauvegarde et fait partie d’un des plus surs.
+
+Pour effectuer la sauvegarde locale, plusieurs supports sont disponibles
+: on pense notamment aux disques durs externes, mais également aux
+serveurs (NAS entre autres) qui permettent d’avoir le support à
+domicile. Il est aussi possible d’avoir recours aux clefs USB, mais qui
+limitent un peu plus la quantité à sauvegarder.
+N’hésitez pas à utiliser des outils adaptés de sauvegarde en fonction de
+votre système d’exploitation de l’ordinateur, de vos serveurs et à les
+paramétrer correctement.
+
+Cloud
+
+Oui, c’est quoi un Cloud ? Un Cloud se traduit littéralement par nuage.
+C’est un système de sauvegarde qui devient de plus en plus utilisé, qui
+a ses avantages tout comme ses inconvénients. Les avantages sont
+multiples, en voici une liste non-exhaustive :
+• Récupération des données plus rapide
+• Mises à jour de logicielles automatiques sur les serveurs
+• Travail collaboratif de meilleur qualité
+• Flexibilité mobile
+Tous ces atouts permettent d’apporter une vraie plus-value à la
+sauvegarde en ligne.

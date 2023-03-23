@@ -1,16 +1,20 @@
-## La propriété background-image
-https://developer.mozilla.org/fr/docs/Web/CSS/background-image
+## Le modèle de boite
+http://www-sop.inria.fr/members/Sylvain.Chevillard/fr.selfhtml.org/css/formats/affichage/modele_boite.png
 
-## La propriété padding
-https://developer.mozilla.org/fr/docs/Web/CSS/padding
+## Le inline-block
+http://fr.learnlayout.com/inline-block.html
 
-## La propriété max-width
-https://developer.mozilla.org/fr/docs/Web/CSS/@viewport/max-width
+## La propriété vertical-align
+https://developer.mozilla.org/fr/docs/Web/CSS/vertical-align
 
-## La propriété float
-https://developer.mozilla.org/fr/docs/Web/CSS/float
+## La propriété min-width
+https://developer.mozilla.org/fr/docs/Web/CSS/min-width
 
-## La propriété clear
-https://developer.mozilla.org/fr/docs/Web/CSS/clear
-http://fr.slideshare.net/jonathanpath/responsive-webdesign-devenir-un-rwd-master (page 7)
-http://fr.learnlayout.com/clear.html
+## La propriété line-height
+https://developer.mozilla.org/fr/docs/Web/CSS/line-height
+
+## La propriété border
+https://developer.mozilla.org/fr/docs/Web/CSS/border
+
+## La propriété list-style-type
+https://developer.mozilla.org/fr/docs/Web/CSS/list-style-type
