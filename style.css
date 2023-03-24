@@ -106,9 +106,7 @@ main {
 }
 
 article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: "PT Sans", sans-serif;
   width: 90%;
 }
 
@@ -145,10 +143,75 @@ article h2 span:last-child::first-letter {
   text-transform: uppercase;
 }
 
-article iframe {
+article .content {
+  display: flex;
   width: 100%;
 }
 
-.float-left {
-  float: left;
+article .content img {
+  width: 25%;
+  height: auto;
+}
+
+article .content p {
+  color: white;
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+section h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+  position: relative;
+}
+
+section h2 span:first-child {
+  color: #d9a017;
+  text-shadow: black 1px 0 10px;
+  font-family: "Coda Caption", sans-serif;
+  font-size: 2em;
+}
+
+section h2 span:first-child::first-letter {
+  text-transform: uppercase;
+}
+
+section h2 span:last-child {
+  color: white;
+  font-family: "Norican", cursive;
+  font-size: 1.5em;
+  position: absolute;
+  transform: translateY(90%);
+  text-shadow: black 1px 0 10px;
+  text-align: center;
+}
+
+section h2 span:last-child::first-letter {
+  text-transform: uppercase;
+}
+
+iframe {
+  width: 90%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+.right {
+  margin-left: 2%;
+}
+
+.float-left ~ p {
+  text-align: left;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
