@@ -4,6 +4,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  color: white;
 }
 
 header {
@@ -42,6 +43,7 @@ header figure {
   text-transform: uppercase;
   text-align: center;
   font-size: 1.5em;
+  color: black;
 }
 
 header h1 {
@@ -53,6 +55,10 @@ header h1 {
   font-size: 5em;
   position: relative;
   text-shadow: black 1px 0 10px;
+}
+
+header h1 span {
+  text-align: center;
 }
 
 .second-element {
@@ -99,7 +105,6 @@ hr {
 main {
   background-color: #00738d;
   padding-top: 5vh;
-  padding-bottom: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,6 +155,7 @@ article .content {
 
 article .content img {
   width: 25%;
+  min-width: 30vw;
   height: auto;
 }
 
@@ -158,6 +164,7 @@ article .content p {
   width: 75%;
   display: flex;
   align-items: center;
+  font-size: 1.1rem;
 }
 
 section h2 {
@@ -214,4 +221,81 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.testimony {
+  background: linear-gradient(to left bottom, #00738d, black);
+  padding-bottom: 5vh;
+}
+
+.testimony h2 {
+  color: #d9a017;
+  text-shadow: black 1px 0 10px;
+  font-family: "Coda Caption", sans-serif;
+  font-size: 2em;
+  display: block;
+  margin: 5vh 0vh;
+}
+
+.testimony h2::first-letter {
+  text-transform: uppercase;
+}
+
+.testimony ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.testimony ul li {
+  height: fit-content;
+  width: 30%;
+}
+
+.testimony article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimony article h3 {
+  font-family: "Norican", cursive;
+  font-size: 2.5em;
+  text-shadow: black 1px 0 10px;
+}
+
+.testimony article img {
+  width: 100%;
+  height: auto;
+  max-width: 30vh;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.testimony article p {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.mb-5 {
+  margin-bottom: 5vh;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vh 0vh;
+}
+
+footer small {
+  font-family: "PT Sans", sans-serif;
+  color: black;
+  margin: 2vh 0vh;
+}
+
+footer img {
+  width: 15%;
 }
