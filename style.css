@@ -7,6 +7,11 @@
   color: white;
 }
 
+:root {
+  --blue: #00738d;
+  --yellow: #d9a017;
+}
+
 header {
   background-image: url(./img/fond.jpg);
   background-size: cover;
@@ -88,23 +93,15 @@ nav {
 }
 
 .text-yellow {
-  color: #d9a017;
+  color: var(--yellow);
 }
 
 iconify-icon {
   color: white;
 }
 
-hr {
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  border: 1px solid #4f9eb0;
-  width: 90%;
-}
-
 main {
   background-color: #00738d;
-  padding-top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +121,7 @@ article h2 {
 }
 
 article h2 span:first-child {
-  color: #d9a017;
+  color: var(--yellow);
   text-shadow: black 1px 0 10px;
   font-family: "Coda Caption", sans-serif;
   font-size: 2em;
@@ -148,25 +145,6 @@ article h2 span:last-child::first-letter {
   text-transform: uppercase;
 }
 
-article .content {
-  display: flex;
-  width: 100%;
-}
-
-article .content img {
-  width: 25%;
-  min-width: 30vw;
-  height: auto;
-}
-
-article .content p {
-  color: white;
-  width: 75%;
-  display: flex;
-  align-items: center;
-  font-size: 1.1rem;
-}
-
 section h2 {
   display: flex;
   flex-direction: column;
@@ -176,7 +154,7 @@ section h2 {
 }
 
 section h2 span:first-child {
-  color: #d9a017;
+  color: var(--yellow);
   text-shadow: black 1px 0 10px;
   font-family: "Coda Caption", sans-serif;
   font-size: 2em;
@@ -200,22 +178,6 @@ section h2 span:last-child::first-letter {
   text-transform: uppercase;
 }
 
-iframe {
-  width: 90%;
-}
-
-.left {
-  margin-right: 2%;
-}
-
-.right {
-  margin-left: 2%;
-}
-
-.float-left ~ p {
-  text-align: left;
-}
-
 section {
   display: flex;
   flex-direction: column;
@@ -223,64 +185,69 @@ section {
   width: 100%;
 }
 
-.testimony {
-  background: linear-gradient(to left bottom, #00738d, black);
-  padding-bottom: 5vh;
+table {
+  width: 90%;
+  border-spacing: 0px;
+  margin-top: 3vh;
 }
 
-.testimony h2 {
-  color: #d9a017;
-  text-shadow: black 1px 0 10px;
-  font-family: "Coda Caption", sans-serif;
-  font-size: 2em;
-  display: block;
-  margin: 5vh 0vh;
-}
-
-.testimony h2::first-letter {
-  text-transform: uppercase;
-}
-
-.testimony ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.testimony ul li {
-  height: fit-content;
-  width: 30%;
-}
-
-.testimony article {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.testimony article h3 {
-  font-family: "Norican", cursive;
-  font-size: 2.5em;
-  text-shadow: black 1px 0 10px;
-}
-
-.testimony article img {
-  width: 100%;
-  height: auto;
-  max-width: 30vh;
-  margin-top: 2%;
-  margin-bottom: 5%;
-}
-
-.testimony article p {
-  text-align: center;
-  line-height: 1.5em;
-}
-
-.mb-5 {
+table:last-child {
   margin-bottom: 5vh;
+}
+
+th {
+  background: linear-gradient(to right, black, var(--blue));
+  text-align: left;
+  font-family: "Norican", cursive;
+  color: var(--yellow);
+  font-size: 1.5em;
+  padding: 1vh 0vh;
+  padding-left: 2vw;
+  margin-left: 1vw;
+  text-transform: capitalize;
+  border: 2px solid black;
+}
+
+td {
+  width: 25%;
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  background-color: var(--blue);
+  color: white;
+}
+
+tr:nth-child(2n) td {
+  background-color: white;
+  color: black;
+}
+
+td:first-child {
+  padding-left: 1.5%;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+
+td:last-child {
+  width: 50%;
+  background-color: var(--yellow);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 1.1em;
+}
+
+td a {
+  text-decoration: none;
+  width: 100%;
+  padding: 1vh 0vh;
+  display: inline-block;
+  background-color: var(--yellow);
+  outline: 2px solid black;
+}
+
+td a::first-letter {
+  text-transform: uppercase;
 }
 
 footer {
@@ -298,4 +265,95 @@ footer small {
 
 footer img {
   width: 15%;
+}
+
+section h2 {
+  margin-top: 5vh;
+}
+
+.forms {
+  padding-bottom: 5vh;
+  background: linear-gradient(to bottom left, var(--blue), black);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  width: 90%;
+}
+
+fieldset {
+  border-color: var(--yellow);
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5vh;
+  width: 100%;
+}
+
+legend {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "PT Sans", sans-serif;
+}
+
+legend::first-letter {
+  text-transform: uppercase;
+}
+
+form div {
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  font-family: "PT Sans", sans-serif;
+}
+
+label::first-letter {
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="checkbox"] {
+  border: none;
+  border-bottom: var(--yellow) 1px solid;
+  background-color: transparent;
+  outline: none;
+}
+
+select {
+  width: 100%;
+  color: black;
+  padding: 1vh;
+  cursor: pointer;
+}
+
+option {
+  color: black;
+}
+
+option::first-letter {
+  text-transform: uppercase;
+}
+
+button[type="submit"] {
+  background-color: var(--yellow);
+  border-radius: 0px;
+  border: none;
+  width: fit-content;
+  padding: 1vw 2vh;
+  margin-bottom: 1vh;
+  cursor: pointer;
+}
+
+button[type="submit"]::first-letter {
+  text-transform: uppercase;
 }
