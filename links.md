@@ -1,12 +1,14 @@
-## La propriété box-sizing
-https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing
-http://www.binvisions.com/wp-content/uploads/2011/09/css-box-model-border-content_590x328.jpg
+## Le hover
+https://developer.mozilla.org/fr/docs/Web/CSS/:hover
 
-## La propriété background-size
-https://developer.mozilla.org/fr/docs/Web/CSS/background-size
+## Guide de survie du positionnement en CSS
+http://www.alsacreations.com/article/lire/53-guide-de-survie-du-positionnement-css.html
 
-## La propriété background-position
-https://developer.mozilla.org/fr/docs/Web/CSS/background-position
+## Tooltip menu déroulant en CSS
+http://www.frogweb.fr/menu-deroulant-horizontal/
 
-## Backgrounds en dégradé
-https://www.colorzilla.com/gradient-editor/
+## La propriété z-index
+http://www.alsacreations.com/astuce/lire/84-comment-fonctionne-la-proprit-css-z-index.html
+
+## Le poids en CSS
+http://www.commentcamarche.net/faq/33023-les-poids-css
