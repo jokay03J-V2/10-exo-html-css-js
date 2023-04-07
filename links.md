@@ -1,14 +1,23 @@
-## Le hover
-https://developer.mozilla.org/fr/docs/Web/CSS/:hover
+## Le préfixage en CSS
+http://www.alsacreations.com/article/lire/1159-prefixes-vendeurs-css-proprietaires.html
+http://pleeease.io/play/
 
-## Guide de survie du positionnement en CSS
-http://www.alsacreations.com/article/lire/53-guide-de-survie-du-positionnement-css.html
+## C'est quoi le Responsive WebDesign
+http://www.alsacreations.com/article/lire/1615-cest-quoi-le-responsive-web-design.html
 
-## Tooltip menu déroulant en CSS
-http://www.frogweb.fr/menu-deroulant-horizontal/
+## Différentes tailles des écrans de device
+http://mydevice.io/devices/
 
-## La propriété z-index
-http://www.alsacreations.com/astuce/lire/84-comment-fonctionne-la-proprit-css-z-index.html
+## Choisir la taille de sa police (et son unité) :
+http://www.pompage.net/traduction/dimensionner-ses-fontes-avec-rem
 
-## Le poids en CSS
-http://www.commentcamarche.net/faq/33023-les-poids-css
+## Les media queries
+https://developer.mozilla.org/fr/docs/Web/CSS/Media_queries
+http://www.alsacreations.com/article/lire/930-css3-media-queries.html
+
+## Les coins arrondi
+https://developer.mozilla.org/fr/docs/Web/CSS/border-radius
+
+## Ombre portée
+https://developer.mozilla.org/fr/docs/Web/CSS/box-shadow
+https://developer.mozilla.org/fr/docs/Web/CSS/text-shadow

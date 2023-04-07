@@ -1,12 +1,13 @@
 ## INSTRUCTIONS
-Découverte du positionnement en CSS
+Découverte du responsive
 
-## HTML
-- Utilisation du position absolute et du display none et block
-- Utilisation des listes imbriquées pour l'intégralité de la navigation
+## CSS
+- Réalisation de l'exercice en mobile-first
+- Utilisation des media queries
+- Utilisation du display none
+- Largeur limité à 80% maximum en desktop
+- Largeur du bloc de gauche en desktop : 70%
+- Largeur du bloc de droite en desktop : 30%
+- Police utilisée :
+    - "Arvo"
 
-# CSS
-- utilisation des sélecteurs avancés
-
-## BONUS
-- Trouver comment on déclenche un effet au passage de la souris
