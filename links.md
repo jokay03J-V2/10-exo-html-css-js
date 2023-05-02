@@ -1,23 +1,13 @@
-## Le préfixage en CSS
-http://www.alsacreations.com/article/lire/1159-prefixes-vendeurs-css-proprietaires.html
-http://pleeease.io/play/
+## Le flexbox
+http://www.alsacreations.com/tuto/lire/1493-css3-flexbox-layout-module.html
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+http://flexboxfroggy.com/#fr
 
-## C'est quoi le Responsive WebDesign
-http://www.alsacreations.com/article/lire/1615-cest-quoi-le-responsive-web-design.html
+## La balise abbr
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/abbr
 
-## Différentes tailles des écrans de device
-http://mydevice.io/devices/
+## Les liens mail
+https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Liens_email
 
-## Choisir la taille de sa police (et son unité) :
-http://www.pompage.net/traduction/dimensionner-ses-fontes-avec-rem
-
-## Les media queries
-https://developer.mozilla.org/fr/docs/Web/CSS/Media_queries
-http://www.alsacreations.com/article/lire/930-css3-media-queries.html
-
-## Les coins arrondi
-https://developer.mozilla.org/fr/docs/Web/CSS/border-radius
-
-## Ombre portée
-https://developer.mozilla.org/fr/docs/Web/CSS/box-shadow
-https://developer.mozilla.org/fr/docs/Web/CSS/text-shadow
+## Les liens numéros
+https://developers.google.com/web/fundamentals/native-hardware/click-to-call/

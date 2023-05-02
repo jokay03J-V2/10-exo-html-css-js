@@ -1,0 +1,162 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+
+header img {
+  margin-top: 1.5vh;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1.5vh 0px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1.5vh;
+}
+
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+li.active a {
+  color: var(--red);
+}
+
+li.active iconify-icon {
+  color: var(--darkBlue);
+}
+
+header img {
+  width: 20%;
+  height: auto;
+}
+
+li iconify-icon {
+  color: var(--blue);
+  font-size: 40px;
+}
+
+ul li a {
+  color: var(--darkBlue);
+  text-decoration: none;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.header {
+  background-image: url(../img/background.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5vh 0px;
+  width: 100%;
+}
+
+.header h1 {
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5vh;
+}
+
+.header p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header p span {
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+
+header form {
+  width: 100%;
+  display: flex;
+}
+
+header form input {
+  width: 90%;
+  padding: 2vh 10%;
+  background-color: var(--red);
+  border: none;
+  outline: none;
+  color: #ff9eb7;
+}
+
+header form input::placeholder {
+  color: #ff9eb7;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+header form button {
+  width: 10%;
+  padding: 2vh 0vh;
+  text-align: center;
+  border: none;
+  color: black;
+  background-color: var(--blue);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  header nav ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 80%;
+  }
+
+  header nav {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  header img {
+    margin: 0px;
+    width: 10%;
+    max-width: 100px;
+    height: auto;
+  }
+
+  header form input {
+    width: 95%;
+  }
+
+  header form button {
+    width: 5%;
+  }
+}

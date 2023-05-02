@@ -1,0 +1,109 @@
+@import url(../base.css);
+@import url(../header.css);
+@import url(../footer.css);
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 400;
+  color: var(--darkBlue);
+  margin: 4vh 0vh;
+  padding-top: 2vh;
+  border: 3px dotted var(--blue);
+  border-bottom: none;
+  text-align: center;
+  font-size: 2rem;
+  width: 90%;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+p {
+  width: 90%;
+  text-transform: uppercase;
+  color: var(--darkBlue);
+  text-align: center;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 100;
+  margin-top: 2vh;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5vh;
+  padding: 5vh 0px;
+}
+
+.card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px var(--blue) dotted;
+  padding: 2.5%;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 100;
+}
+
+.card h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 2vh 0px;
+  color: white;
+  background-color: var(--blue);
+}
+
+.card ul {
+  padding-left: 10%;
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 2vh 0px;
+}
+
+.card ul li {
+  text-align: left;
+}
+
+.card button {
+  border: none;
+  border-radius: 0px;
+  padding: 1vh 0px;
+  background-color: var(--red);
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.card strong {
+  color: var(--darkBlue);
+  margin-bottom: 2vh;
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    width: 30%;
+    padding: 0.5%;
+  }
+
+  h1 {
+    width: 70%;
+  }
+
+  img {
+    width: 40%;
+  }
+
+  p {
+    width: 70%;
+  }
+}
