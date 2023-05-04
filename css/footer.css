@@ -12,6 +12,14 @@ footer {
   gap: 20px;
 }
 
+footer ul li a {
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
 footer ul {
   list-style: none;
   display: flex;

@@ -18,6 +18,7 @@ h1 {
 
 main ul {
   width: 90%;
+  height: fit-content;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -26,13 +27,21 @@ main ul {
 
 main ul li {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5vh;
 }
 
-ul li iconify-icon {
+.li-icon {
   color: var(--red);
+  margin-bottom: 1vh;
+}
+
+.f-col {
+  flex-direction: column;
+  align-items: center;
 }
 
 ul li span {
@@ -41,15 +50,22 @@ ul li span {
   text-transform: uppercase;
 }
 
-ul li a {
+main ul li a {
   color: var(--red);
   font-weight: 100;
   font-size: 1rem;
 }
 
+li span {
+  display: flex;
+  gap: 5px;
+  color: var(--darkBlue);
+  margin: 5vh 0vh;
+}
+
 hr {
-  border: 1px var(--red) dotted;
-  width: 100%;
+  border: 1px var(--red) dashed;
+  width: 90%;
 }
 
 img {
@@ -58,7 +74,7 @@ img {
 }
 
 iframe {
-  width: 90%;
+  width: 100%;
   height: 60vh;
 }
 
@@ -72,70 +88,7 @@ p {
   margin-top: 2vh;
 }
 
-.cards {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2.5vh;
-  padding: 5vh 0px;
-}
-
-.card {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border: 2px var(--blue) dotted;
-  padding: 2.5%;
-  font-family: "Londrina Solid", cursive;
-  font-weight: 100;
-}
-
-.card h2 {
-  text-transform: uppercase;
-  font-size: 1rem;
-  padding: 2vh 0px;
-  color: white;
-  background-color: var(--blue);
-}
-
-.card ul {
-  padding-left: 10%;
-  list-style-type: circle;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin: 2vh 0px;
-}
-
-.card ul li {
-  text-align: left;
-}
-
-.card button {
-  border: none;
-  border-radius: 0px;
-  padding: 1vh 0px;
-  background-color: var(--red);
-  color: white;
-  font-family: "Londrina Solid", cursive;
-  font-weight: 100;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.card strong {
-  color: var(--darkBlue);
-  margin-bottom: 2vh;
-}
-
 @media screen and (min-width: 800px) {
-  .card {
-    width: 30%;
-    padding: 0.5%;
-  }
-
   h1 {
     width: 70%;
   }
@@ -144,15 +97,18 @@ p {
     width: 70%;
   }
 
-  iframe {
-    width: 70%;
-  }
-
   p {
     width: 70%;
   }
 
-  ul {
+  main ul {
     width: 70%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  main ul li {
+    min-height: 200px;
+    margin: 0px;
   }
 }
