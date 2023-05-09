@@ -1,162 +1,90 @@
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fcfcfc;
-}
-
-header img {
-  margin-top: 1.5vh;
-}
-
-header nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
-  padding: 1.5vh 0px;
+  min-height: 60vh;
+  height: fit-content;
+  background-image: url(../img/fond.gif);
+  background-position: 0% 0%;
+  padding-bottom: 10vh;
 }
 
-header nav ul {
-  list-style: none;
+nav {
+  padding: 5vh 0vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  margin-top: 1.5vh;
-}
-
-nav ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-li.active a {
-  color: var(--red);
-}
-
-li.active iconify-icon {
-  color: var(--darkBlue);
-}
-
-header img {
-  width: 20%;
-  height: auto;
-}
-
-li iconify-icon {
-  color: var(--blue);
-  font-size: 40px;
-}
-
-ul li a {
-  color: var(--darkBlue);
-  text-decoration: none;
-  font-family: "Londrina Solid", cursive;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  text-align: center;
-}
-
-.header {
-  background-image: url(../img/background.gif);
+  background: url(../img/fond.svg) #fff;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 5vh 0px;
-  width: 100%;
+  z-index: 1;
 }
 
-.header h1 {
-  color: white;
-  font-family: "Londrina Solid", cursive;
-  font-weight: 400;
+nav h1 {
+  color: var(--grey);
   text-transform: uppercase;
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 5vh;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  position: relative;
 }
 
-.header p {
+nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.header p span {
-  color: white;
-  font-family: "Londrina Solid", cursive;
+  font-family: "Luckiest Guy", cursive;
   font-weight: 400;
-  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--orange);
+  gap: 0.5vh;
+}
+
+header h2 {
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
   text-align: center;
-  text-transform: uppercase;
-  line-height: 2rem;
+  margin-bottom: 2%;
+  margin-top: 4%;
+  position: relative;
 }
 
-header form {
-  width: 100%;
-  display: flex;
-}
-
-header form input {
-  width: 90%;
-  padding: 2vh 10%;
-  background-color: var(--red);
-  border: none;
-  outline: none;
-  color: #ff9eb7;
-}
-
-header form input::placeholder {
-  color: #ff9eb7;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-header form button {
-  width: 10%;
-  padding: 2vh 0vh;
+header p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--white);
   text-align: center;
-  border: none;
-  color: black;
-  background-color: var(--blue);
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
 }
 
-@media screen and (min-width: 800px) {
-  header nav ul {
-    flex-direction: row;
-    justify-content: space-evenly;
-    min-width: 80%;
-  }
+header > a {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  color: var(--white);
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 1vw;
+  background-color: var(--orange);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5%;
+}
 
-  header nav {
-    justify-content: space-around;
-    flex-direction: row;
-  }
+header > a::first-letter {
+  text-transform: uppercase;
+}
 
-  header img {
-    margin: 0px;
-    width: 10%;
-    max-width: 100px;
-    height: auto;
-  }
+header h2::before {
+  content: "**";
+}
 
-  header form input {
-    width: 95%;
-  }
-
-  header form button {
-    width: 5%;
-  }
+header h2::after {
+  content: "**";
 }

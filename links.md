@@ -1,13 +1,16 @@
-## Le flexbox
-http://www.alsacreations.com/tuto/lire/1493-css3-flexbox-layout-module.html
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-http://flexboxfroggy.com/#fr
+## Les transitions en CSS
+https://developer.mozilla.org/fr/docs/Web/CSS/transition
 
-## La balise abbr
-https://developer.mozilla.org/fr/docs/Web/HTML/Element/abbr
+## Les effets de transitions en CSS
+http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transition-timing-function2
 
-## Les liens mail
-https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Liens_email
+## Les tranformations en CSS
+https://developer.mozilla.org/fr/docs/Web/CSS/transform
 
-## Les liens numéros
-https://developers.google.com/web/fundamentals/native-hardware/click-to-call/
+## Le SVG
+http://www.alsacreations.com/tuto/lire/1421-svg-initiation-syntaxe-outils.html
+
+## Le canvas
+http://www.alsacreations.com/tuto/lire/1484-introduction.html
+https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/l-element-canvas
+

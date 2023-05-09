@@ -1,10 +1,20 @@
 # INSTRUCTIONS
-Découverte du flexbox
+Découverte du SVG et des transitions CSS
+
+## HTML
+- Utilisation d'images en SVG
 
 ## CSS
-- Utilisation du flexbox
-- Police utilisés :
-    - "Londrina" - 100 et 400
+- Utilisation des transitions et transformations en CSS
+- Largeur limité à 1100px maximum
+- Police utilisé : "Luckiest Guy" et "Open Sans"
 
-## BONUS
-- Réalisation de la version responsive
+## TRANSITIONS
+- logo :
+    - zoom de 1.3 sur le microphone
+
+- nav :
+    - texte et icones passent en orange
+    - texte et icones descendent de 10px
+
+

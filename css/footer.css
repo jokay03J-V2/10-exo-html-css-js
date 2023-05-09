@@ -1,40 +1,11 @@
 footer {
+  min-height: 20vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--darkBlue);
-  color: white;
-  font-family: "Londrina Solid", cursive;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1rem;
-  padding: 2%;
-  gap: 20px;
-}
-
-footer ul li a {
-  color: white;
-  font-family: "Londrina Solid", cursive;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1rem;
-}
-
-footer ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-footer img {
-  width: 20%;
-  height: auto;
-}
-
-small {
-  font-weight: 100;
-  text-align: center;
+  justify-content: center;
+  background-color: var(--grey);
+  color: var(--white);
+  font-family: "Open sans", Arial, Helvetica, sans-serif;
 }
