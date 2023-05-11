@@ -203,11 +203,20 @@
         voluptate nisi cupiditate aut quasi error quam alias officiis sapiente, repellendus harum, sint quos incidunt.
       </p>
       <form action="#">
-        <input type="text" autocomplete="name" required placeholder="ton prénom">
-        <input type="email" name="email" autocomplete="email" required placeholder="ton mail">
-        <input type="text" required placeholder="ton message">
-        <div><input type="submit" value="Envoyer !!! :)">
-          <input type="reset" value="Effacer... :=<">
+        <label class="textfield" for="lastname">
+          <img src="./img/bg_form_mail.svg" alt="">
+          <input type="text" autocomplete="name" required placeholder="ton prénom" id="lastname">
+        </label>
+        <label class="textfield" for="email">
+          <img src="./img/bg_form_mail.svg" alt="">
+          <input type="email" name="email" autocomplete="email" required placeholder="ton mail" id="email">
+        </label>
+        <label class="textfield" for="message">
+          <img src="./img/bg_form_message.svg" alt="message'ico">
+          <input type="text" required placeholder="ton message" id="message">
+        </label>
+        <div class="controls"><input type="submit" value="Envoyer !!! :)">
+          <input type="reset" value="Effacer... :-(">
         </div>
       </form>
     </section>
