@@ -141,6 +141,10 @@ main div {
   height: fit-content;
 }
 
+iframe {
+  border: none;
+}
+
 div:nth-child(2) {
   display: none;
   background-color: var(--lightnessOrange);
