@@ -121,7 +121,7 @@ header form input::placeholder {
   font-weight: bold;
 }
 
-header form button {
+header form input[type="submit"] {
   width: 10%;
   padding: 2vh 0vh;
   text-align: center;
